@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddNewsServlet</servlet-name>
+  	<display-name>AddNewsServlet</display-name>
+  	<description></description>
+  	<servlet-class>cn.et.controller.AddNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddNewsServlet</servlet-name>
+  	<url-pattern>/addNews</url-pattern>
+  </servlet-mapping>
+</web-app>
